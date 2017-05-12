@@ -31,20 +31,13 @@ const styles = StyleSheet.create({
         width: deviceWidth*.3,
         alignSelf: 'center',
     },
-    flexy : {
-        resizeMode: 'contain',
-        width: deviceWidth*.5,
-        alignSelf: 'center',
-        flex:2,
-        marginTop : 15
-    },
     bg: {
         flex: 1,
         justifyContent: 'center',
        
     },
     wrapperLogin: {
-        flex: 1,
+        flex: 2,
         justifyContent: 'center',
          paddingLeft: 30,
         paddingRight: 30,

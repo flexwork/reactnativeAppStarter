@@ -13,14 +13,16 @@ import Login from './coreJs/Login';
 import LoginScreen from './components/Login';
 import HomeScreen from './components/Home';
 import sharedStyles from './appStyle';
+//app main navigator two screens 1 is login 2 is Home
 const App = StackNavigator({
+  Login:{ screen: LoginScreen},
   Home : {screen: HomeScreen,
     navigationOptions: ({navigation}) => ({
       headerTitle: "flexwork.io",
       headerStyle: sharedStyles.headerWrapper,
       headerTitleStyle: sharedStyles.headerTitle
     }),},
-  Login:{ screen: LoginScreen},
+  
   
 });
 export default App;
